@@ -1,7 +1,8 @@
 # Kevin Nogueira
 
 Développeur d'applications et d'automatisations, en Suisse romande.
-**Je cherche un poste en développement d'applications web ou mobiles, ou en support informatique.**
+**Je cherche un poste en développement d'applications web ou mobiles, ou en support informatique.
+Disponible immédiatement.**
 
 ## Ce que j'apporte à une équipe
 
