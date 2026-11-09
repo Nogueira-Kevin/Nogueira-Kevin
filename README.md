@@ -25,7 +25,7 @@ ce qu'ils produisent, et je réponds de ce qui tourne en ligne.
 Je cherche un poste en développement d'applications web ou mobiles, ou en support informatique.
 Je suis disponible immédiatement.
 Si des problèmes reviennent sans cesse dans vos projets, j'aimerais en parler avec vous :
-kevin.nogueira@neuraframe.ch
+davidkevin2019@hotmail.com
 
 ---
 
