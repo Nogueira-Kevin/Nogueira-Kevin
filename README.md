@@ -37,10 +37,9 @@ d'un participant : inscription, paiement, accès à la formation, e-mails, group
 
 À l'enregistrement d'un événement, elle crée le groupe WhatsApp (icône, description,
 administrateurs) et la liste e-mail, puis programme chaque rappel selon le scénario dessiné dans
-un éditeur visuel, à l'heure locale de l'événement. J'ai fait en sorte qu'elle n'envoie rien deux
-fois si elle est relancée, et j'ai fait couvrir le calcul des dates par des tests, heure d'été
-comprise.
-[Voir l'extrait du code et ses tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
+un éditeur visuel, à l'heure locale de l'événement. Même relancée par erreur, elle n'envoie
+jamais un message en double aux participants.
+[Voir l'extrait du code et ses tests automatiques](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
 
 Je l'exploite moi-même : mises en production, surveillance, correction des incidents.
 
@@ -48,8 +47,9 @@ Je l'exploite moi-même : mises en production, surveillance, correction des inci
 
 **Un jeu de rôle en ligne massivement multijoueur, jouable en bêta publique sur
 [playasaria.com](https://playasaria.com).**
-Client Unity en C#, serveur qui fait autorité sur le jeu (aucune décision de jeu n'est laissée au
-client), déployé sur deux régions.
+Je développe le jeu (Unity, C#) et son serveur, que j'héberge sur deux régions. C'est le serveur
+qui décide de tout ce qui se passe en jeu, pas l'ordinateur du joueur : c'est ce qui empêche
+de tricher.
 
 ## Autres projets
 
