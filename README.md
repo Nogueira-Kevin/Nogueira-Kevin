@@ -3,10 +3,11 @@
 Je conçois et développe des applications pour les métiers de l'humain (formation, coaching,
 accompagnement) et je les fais tourner en production.
 
-Ces métiers, je les ai appris avant d'écrire du code pour eux. Je suis coach formé aux
+Je code depuis l'enfance. J'ai approfondi pendant mon apprentissage d'électronicien, où j'ai
+aussi passé trois ans à tester, calibrer et valider du matériel avant qu'il parte chez le
+client. Je me suis ensuite formé aux métiers de l'humain : je suis coach formé aux
 neurosciences et à l'intelligence émotionnelle, analyste et mentor comportemental, et je forme
-moi-même des analystes. Avant cela, j'ai été électronicien : trois ans à tester, calibrer et
-valider du matériel avant qu'il parte chez le client.
+moi-même des analystes.
 
 C'est cette double culture que j'apporte à une équipe : comprendre ce dont l'utilisateur a
 réellement besoin, et livrer un logiciel qui fonctionne.
@@ -34,7 +35,8 @@ le jeu, déployé sur deux régions.
 
 ## Ma façon de travailler
 
-Je développe avec l'IA comme on dirige une petite équipe : je fixe l'architecture et le
+J'ai longtemps tout écrit à la main ; aujourd'hui, je développe avec l'IA comme on dirige une
+petite équipe : je fixe l'architecture et le
 résultat attendu, l'IA écrit, je relis, je teste, et je reste responsable de ce qui tourne en
 ligne. Avant chaque mise en production : une sauvegarde, une vérification, et un retour
 arrière prêt.
