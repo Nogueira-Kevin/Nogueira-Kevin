@@ -1,45 +1,51 @@
-### Kevin Nogueira — développeur d'applications et d'automatisations · Suisse
+# Kevin Nogueira
 
-Je construis des applications qui tournent **en production** et je les maintiens :
-je trouve les bugs, je les corrige sans casser ce qui marche, et je le prouve par des tests.
-Je développe **avec l'IA** — elle écrit vite ; moi, je conçois, je vérifie et je réponds du résultat.
+Je conçois et développe des applications pour les métiers de l'humain (formation, coaching,
+accompagnement) et je les fais tourner en production.
 
----
+Ces métiers, je les ai appris avant d'écrire du code pour eux. Je suis coach formé aux
+neurosciences et à l'intelligence émotionnelle, analyste et mentor comportemental, et je forme
+moi-même des analystes. Avant cela, j'ai été électronicien : trois ans à tester, calibrer et
+valider du matériel avant qu'il parte chez le client.
 
-#### Trois preuves, en trente secondes
+C'est cette double culture que j'apporte à une équipe : comprendre ce dont l'utilisateur a
+réellement besoin, et livrer un logiciel qui fonctionne.
 
-**⚙️ Automatiser — de 3 jours à quelques secondes**
-Préparer un événement (groupe WhatsApp, liste e-mail, rappels J-7, J-1, jour J) prenait des jours à la main.
-Sur [Neuraframe](https://neuraframe.ch), ma plateforme SaaS (37 organisations inscrites), c'est automatique dès l'enregistrement de l'événement.
-→ [Voir le code et les tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
+## Ce que j'ai construit
 
-**🔒 Sécuriser — des clés secrètes qui partaient vers le navigateur**
-En auditant les réponses de mon API, j'ai trouvé la clé Stripe *live* et des mots de passe SMTP renvoyés en clair au navigateur de l'administrateur.
-Corrigé en production le jour même : les secrets ne quittent plus le serveur, l'interface n'en voit qu'une forme masquée.
+**Neuraframe.** Une plateforme SaaS pour formateurs et organisateurs d'événements :
+inscriptions, paiements, e-mails, groupes WhatsApp, cours en ligne et certificats.
+Multi-tenant, PHP 8, MySQL et React, en production.
+Préparer un événement (groupe WhatsApp, liste e-mail, rappels) prenait jusqu'à trois jours ;
+c'est désormais automatique, en quelques secondes.
+[Extrait du code et ses tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
 
-**🧪 Fiabiliser — un bug d'envoi trouvé en revue de code**
-Un rappel prévu à J-7 pouvait partir tout de suite. J'ai isolé la logique de planification, corrigé, puis écrit
-16 tests (dont le passage à l'heure d'été) qui tournent à chaque envoi sur GitHub.
-→ [Le correctif et ses tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation/tree/main/tests)
+**Des assistants IA spécialisés.** Des modèles Qwen ajustés (LoRA) et exécutés en local :
+un assistant de support qui paramètre les comptes, un assistant sur les cours, et un assistant
+de prise de rendez-vous en test.
 
----
+**Un outil d'analyse comportementale.** Des questionnaires de profil, le croisement des
+résultats et un rapport PDF généré automatiquement. Je l'utilise avec mes propres clients ;
+sa finalisation est en cours.
 
-#### Comment je travaille avec l'IA
+**Asaria.** Un jeu de rôle en ligne massivement multijoueur, en bêta publique sur
+[playasaria.com](https://playasaria.com) : client Unity en C#, serveur qui fait autorité sur
+le jeu, déployé sur deux régions.
 
-1. **Je décide** de l'architecture et de ce qui doit être vrai à la fin.
-2. **L'IA écrit** le code ; je le relis comme celui d'un collègue.
-3. **Je vérifie** : tests qui échouent si on casse la protection, contrôle de la production avant et après.
-4. **Je réponds** de ce qui tourne en ligne : sauvegarde avant chaque modification, retour arrière prêt.
+## Ma façon de travailler
 
-#### Ce que j'apporte en plus du code
+Je développe avec l'IA comme on dirige une petite équipe : je fixe l'architecture et le
+résultat attendu, l'IA écrit, je relis, je teste, et je reste responsable de ce qui tourne en
+ligne. Avant chaque mise en production : une sauvegarde, une vérification, et un retour
+arrière prêt.
 
-- **Électronicien CFC** (2021-2024) : diagnostic méthodique, calibration et tests de matériel avant livraison.
-- **Analyste comportemental certifié** : je fais passer et j'interprète des tests de profil, je forme des analystes —
-  et j'ai développé mon propre outil de tests avec rapports PDF automatiques.
-- **Langues** : français et portugais (C2), anglais (B1-B2).
+## Formation
 
-#### Outils
+- CFC d'électronicien, EPSIC, 2021-2024
+- Coach neuropraticien, Académie européenne des neurosciences, 2024
+- Coach émotionnel humanisé CEH® (intelligence émotionnelle), 2024
+- Analyste HMI, Practitioner PNL, International Behavior Master Analyst, Mentor comportemental, 2024-2026
 
-PHP 8 · MySQL · JavaScript / TypeScript · React · C# / Unity · API REST · WhatsApp (Evolution API) · Stripe · Ollama, LoRA
+Français et portugais (C2), anglais (B1-B2).
 
-📫 [LinkedIn](https://www.linkedin.com/in/kevin-nogueira) · kevin.nogueira@neuraframe.ch
+[LinkedIn](https://www.linkedin.com/in/kevin-nogueira) · kevin.nogueira@neuraframe.ch
