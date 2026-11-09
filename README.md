@@ -1,36 +1,35 @@
 # Kevin Nogueira
 
-Développeur d'applications web et d'automatisations, en Suisse romande.
+Développeur d'applications et d'automatisations, en Suisse romande.
+**Je cherche un poste en développement d'applications web ou mobiles, ou en support informatique.**
 
-Formateur et mentor, je perdais des jours à préparer chaque événement à la main, sur plusieurs
-logiciels, même avec de l'aide : oublis, erreurs, coordination difficile. J'ai donc construit
-**Neuraframe** pour automatiser ce travail, puis je l'ai ouverte à d'autres formateurs.
-Je la développe et je l'exploite aujourd'hui.
+## Ce que j'apporte à une équipe
 
-Je code depuis l'enfance et j'ai approfondi pendant mon CFC d'électronicien. Je me suis ensuite
-formé au coaching et à l'analyse comportementale, et je forme moi-même des analystes : je
-construis des outils pour des métiers que je pratique.
-
-## Neuraframe
-
-Plateforme SaaS multi-tenant pour formateurs et organisateurs d'événements (PHP 8, MySQL, React).
-Elle automatise le parcours d'un participant : inscription, paiement, accès à la formation,
-e-mails, groupe WhatsApp et rappels.
-
-**Préparer un événement : de trois jours à quelques secondes.**
-À l'enregistrement d'un événement, le système crée le groupe WhatsApp et la liste e-mail, puis
-programme chaque rappel selon le scénario défini dans un éditeur visuel, à l'heure locale de
-l'événement. S'il est relancé par erreur, il n'envoie rien deux fois.
+**Je transforme un processus manuel en automatisation fiable.**
+Formateur, je perdais jusqu'à trois jours à préparer chaque événement sur plusieurs logiciels,
+même avec de l'aide. J'ai construit Neuraframe pour automatiser ce travail : à l'enregistrement
+d'un événement, la plateforme crée le groupe WhatsApp et la liste e-mail, puis programme chaque
+rappel à l'heure locale. La préparation se fait maintenant en quelques secondes, sans rien
+envoyer deux fois.
 [Extrait du code et ses tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
 
-**Un incident le jour J.**
-Le jour du webinaire automatisé d'une cliente, préparé avec toute une campagne marketing,
-l'automatisation n'a pas fonctionné. J'ai d'abord lancé le webinaire par une solution de
-contournement manuelle : il a commencé avec dix minutes de retard, sans être reporté.
-J'ai ensuite trouvé deux causes : des fichiers de logs qui avaient saturé le stockage du
-serveur, et une connexion Google déconnectée côté cliente. J'ai corrigé le processus et ajouté
-des vérifications préalables, pour détecter ce type de problème plusieurs heures avant un
-événement plutôt que dans l'urgence.
+**Je tiens un service en production, même quand il casse.**
+Le jour du webinaire d'une cliente, préparé avec toute une campagne marketing, l'automatisation
+n'a pas fonctionné. J'ai d'abord sauvé l'événement par un lancement manuel : dix minutes de
+retard, pas de report. Ensuite, j'ai trouvé les causes (le stockage du serveur saturé par les
+journaux, une connexion Google déconnectée) et j'ai ajouté des vérifications qui détectent ce
+genre de problème plusieurs heures avant un événement.
+
+**Je comprends les utilisateurs pour qui je construis.**
+Je suis formé au coaching, aux neurosciences, à l'intelligence émotionnelle et à l'analyse
+comportementale ; je suis des clients et je forme des analystes. Neuraframe est né de mes
+propres besoins avant de servir d'autres formateurs.
+
+## Neuraframe en bref
+
+Plateforme SaaS multi-tenant pour formateurs et organisateurs d'événements, que je développe
+et exploite : inscription, paiement, accès aux formations, e-mails, groupes WhatsApp et rappels.
+PHP 8, MySQL, React.
 
 ## Autres projets
 
@@ -44,7 +43,8 @@ des vérifications préalables, pour détecter ce type de problème plusieurs he
 
 ## Ma façon de travailler
 
-Je travaille principalement avec des agents IA pour le développement. Je conçois la solution et
+Je code depuis l'enfance, et j'ai approfondi pendant mon CFC d'électronicien. Aujourd'hui, je
+travaille principalement avec des agents IA pour le développement : je conçois la solution et
 l'architecture, je découpe le travail, je relis le code, je le teste et je valide chaque mise en
 production. Mes bases en PHP, HTML/CSS et C++ me permettent de comprendre le code et d'y repérer
 les erreurs, avec une autonomie variable selon les technologies.
@@ -58,4 +58,7 @@ les erreurs, avec une autonomie variable selon les technologies.
 
 Français et portugais (C2), anglais (B1-B2).
 
-[LinkedIn](https://www.linkedin.com/in/kevin-nogueira) · kevin.nogueira@neuraframe.ch
+---
+
+**Vous cherchez quelqu'un pour développer, automatiser ou maintenir vos applications ?**
+Écrivez-moi : kevin.nogueira@neuraframe.ch · [LinkedIn](https://www.linkedin.com/in/kevin-nogueira)
