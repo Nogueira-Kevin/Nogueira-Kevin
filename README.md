@@ -19,7 +19,7 @@ Je code depuis l'enfance et je suis électronicien CFC. Mes projets vont de cett
 à **Asaria**, un jeu en ligne multijoueur en bêta publique. Formé au coaching et à l'analyse
 comportementale, je commence toujours par comprendre ce dont l'utilisateur a réellement besoin.
 Je développe en pilotant des agents IA : je conçois, je découpe le travail, je relis et je teste
-ce qu'ils produisent, et je réponds de ce qui tourne en ligne.
+ce qu'ils produisent, et j'assume les mises en production et leur suivi.
 
 **Je veux maintenant mettre cette façon de travailler au service d'une équipe.**
 Je cherche un poste en développement d'applications web ou mobiles, ou en support informatique.
@@ -35,10 +35,11 @@ davidkevin2019@hotmail.com
 Neuraframe est une plateforme SaaS multi-tenant (PHP 8, MySQL, React) qui automatise le parcours
 d'un participant : inscription, paiement, accès à la formation, e-mails, groupe WhatsApp et rappels.
 
-À l'enregistrement d'un événement, elle crée le groupe WhatsApp (icône, description,
+Le code publié montre la préparation des événements. À l'enregistrement d'un
+événement, la plateforme crée le groupe WhatsApp (icône, description,
 administrateurs) et la liste e-mail, puis programme chaque rappel selon le scénario dessiné dans
-un éditeur visuel, à l'heure locale de l'événement. Même relancée par erreur, elle n'envoie
-jamais un message en double aux participants.
+un éditeur visuel, à l'heure locale de l'événement. Elle est conçue pour ne pas
+renvoyer un message déjà envoyé si on la relance par erreur.
 [Voir l'extrait du code et ses tests automatiques](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
 
 Je l'exploite moi-même : mises en production, surveillance, correction des incidents.
@@ -48,8 +49,8 @@ Je l'exploite moi-même : mises en production, surveillance, correction des inci
 **Un jeu de rôle en ligne massivement multijoueur, jouable en bêta publique sur
 [playasaria.com](https://playasaria.com).**
 Je développe le jeu (Unity, C#) et son serveur, que j'héberge sur deux régions. C'est le serveur
-qui décide de tout ce qui se passe en jeu, pas l'ordinateur du joueur : c'est ce qui empêche
-de tricher.
+qui décide de tout ce qui se passe en jeu, pas l'ordinateur du joueur : c'est la base de la
+protection contre la triche.
 
 ## Autres projets
 
