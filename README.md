@@ -1,45 +1,53 @@
 # Kevin Nogueira
 
-Je conçois et développe des applications pour les métiers de l'humain (formation, coaching,
-accompagnement) et je les fais tourner en production.
+Développeur d'applications web et d'automatisations, en Suisse romande.
 
-Je code depuis l'enfance. J'ai approfondi pendant mon apprentissage d'électronicien, où j'ai
-aussi passé trois ans à tester, calibrer et valider du matériel avant qu'il parte chez le
-client. Je me suis ensuite formé aux métiers de l'humain : je suis coach formé aux
-neurosciences et à l'intelligence émotionnelle, analyste et mentor comportemental, et je forme
-moi-même des analystes.
+Formateur et mentor, je perdais des jours à préparer chaque événement à la main, sur plusieurs
+logiciels, même avec de l'aide : oublis, erreurs, coordination difficile. J'ai donc construit
+**Neuraframe** pour automatiser ce travail, puis je l'ai ouverte à d'autres formateurs.
+Je la développe et je l'exploite aujourd'hui.
 
-C'est cette double culture que j'apporte à une équipe : comprendre ce dont l'utilisateur a
-réellement besoin, et livrer un logiciel qui fonctionne.
+Je code depuis l'enfance et j'ai approfondi pendant mon CFC d'électronicien. Je me suis ensuite
+formé au coaching et à l'analyse comportementale, et je forme moi-même des analystes : je
+construis des outils pour des métiers que je pratique.
 
-## Ce que j'ai construit
+## Neuraframe
 
-**Neuraframe.** Une plateforme SaaS pour formateurs et organisateurs d'événements :
-inscriptions, paiements, e-mails, groupes WhatsApp, cours en ligne et certificats.
-Multi-tenant, PHP 8, MySQL et React, en production.
-Préparer un événement (groupe WhatsApp, liste e-mail, rappels) prenait jusqu'à trois jours ;
-c'est désormais automatique, en quelques secondes.
+Plateforme SaaS multi-tenant pour formateurs et organisateurs d'événements (PHP 8, MySQL, React).
+Elle automatise le parcours d'un participant : inscription, paiement, accès à la formation,
+e-mails, groupe WhatsApp et rappels.
+
+**Préparer un événement : de trois jours à quelques secondes.**
+À l'enregistrement d'un événement, le système crée le groupe WhatsApp et la liste e-mail, puis
+programme chaque rappel selon le scénario défini dans un éditeur visuel, à l'heure locale de
+l'événement. S'il est relancé par erreur, il n'envoie rien deux fois.
 [Extrait du code et ses tests](https://github.com/Nogueira-Kevin/neuraframe-event-automation)
 
-**Des assistants IA spécialisés.** Des modèles Qwen ajustés (LoRA) et exécutés en local :
-un assistant de support qui paramètre les comptes, un assistant sur les cours, et un assistant
-de prise de rendez-vous en test.
+**Un incident le jour J.**
+Le jour du webinaire automatisé d'une cliente, préparé avec toute une campagne marketing,
+l'automatisation n'a pas fonctionné. J'ai d'abord lancé le webinaire par une solution de
+contournement manuelle : il a commencé avec dix minutes de retard, sans être reporté.
+J'ai ensuite trouvé deux causes : des fichiers de logs qui avaient saturé le stockage du
+serveur, et une connexion Google déconnectée côté cliente. J'ai corrigé le processus et ajouté
+des vérifications préalables, pour détecter ce type de problème plusieurs heures avant un
+événement plutôt que dans l'urgence.
 
-**Un outil d'analyse comportementale.** Des questionnaires de profil, le croisement des
-résultats et un rapport PDF généré automatiquement. Je l'utilise avec mes propres clients ;
-sa finalisation est en cours.
+## Autres projets
 
-**Asaria.** Un jeu de rôle en ligne massivement multijoueur, en bêta publique sur
-[playasaria.com](https://playasaria.com) : client Unity en C#, serveur qui fait autorité sur
-le jeu, déployé sur deux régions.
+- **Asaria** : un jeu de rôle en ligne massivement multijoueur, en bêta publique sur
+  [playasaria.com](https://playasaria.com). Client Unity en C#, serveur qui fait autorité,
+  deux régions.
+- **Un outil d'analyse comportementale** : questionnaires de profil et rapport PDF automatique.
+  Je l'utilise avec mes clients ; sa finalisation est en cours.
+- **Des assistants IA** : des modèles Qwen ajustés (LoRA) et exécutés en local. L'assistant de
+  support est en service ; ceux pour les cours et la prise de rendez-vous sont en développement.
 
 ## Ma façon de travailler
 
-J'ai longtemps tout écrit à la main ; aujourd'hui, je développe avec l'IA comme on dirige une
-petite équipe : je fixe l'architecture et le
-résultat attendu, l'IA écrit, je relis, je teste, et je reste responsable de ce qui tourne en
-ligne. Avant chaque mise en production : une sauvegarde, une vérification, et un retour
-arrière prêt.
+Je travaille principalement avec des agents IA pour le développement. Je conçois la solution et
+l'architecture, je découpe le travail, je relis le code, je le teste et je valide chaque mise en
+production. Mes bases en PHP, HTML/CSS et C++ me permettent de comprendre le code et d'y repérer
+les erreurs, avec une autonomie variable selon les technologies.
 
 ## Formation
 
